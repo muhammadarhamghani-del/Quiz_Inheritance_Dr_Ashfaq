@@ -68,9 +68,9 @@ public:
     Park(){
         no_of_trees = 0;
         ticket = 0;
-        kidsArea = true;
-        joggingArea = true;
-        refreshment = true;
+        kidsArea = false;
+        joggingArea = false;
+        refreshment = false;
     }
 
 // Setter 
